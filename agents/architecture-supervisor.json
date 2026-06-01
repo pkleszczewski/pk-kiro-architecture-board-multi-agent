@@ -1,0 +1,10 @@
+{
+  "name": "architecture-supervisor",
+  "description": "Architect with main duties: specifies and plans. Delegates various architecture tasks to specialized subagents.",
+  "prompt": "file://./architecture-supervisor.md",
+  "tools": ["*"],
+  "allowedTools": ["read", "write", "knowledge", "shell", "@playwright"],
+  "keyboardShortcut": "ctrl+1",
+  "welcomeMessage": "Architecture Supervisor ready. Describe your architecture challenge and I'll coordinate the team to deliver a comprehensive solution.",
+  "includeMcpJson": true
+}

@@ -1,0 +1,10 @@
+{
+  "name": "documentalist",
+  "description": "Prepares summaries and documents all architecture aspects. Creates management summaries, diagrams, visualizations, presentation-ready materials, and technical documentation.",
+  "prompt": "file://./documentalist.md",
+  "tools": ["*"],
+  "allowedTools": ["read", "write", "knowledge", "shell", "@playwright", "@drawio"],
+  "keyboardShortcut": "ctrl+6",
+  "welcomeMessage": "Documentalist ready. What should I document? I can create technical docs, management summaries, diagrams (draw.io), or presentation materials (Marp).",
+  "includeMcpJson": true
+}

@@ -1,0 +1,10 @@
+{
+  "name": "requirement-engineer",
+  "description": "Engineer that defines functional and non-functional requirements for solutions and confirms them with stakeholders and the architecture team.",
+  "prompt": "file://./requirement-engineer.md",
+  "tools": ["*"],
+  "allowedTools": ["read", "write", "knowledge", "@playwright"],
+  "keyboardShortcut": "ctrl+3",
+  "welcomeMessage": "Requirement Engineer ready. Let's define and refine the requirements. What system or feature should we specify?",
+  "includeMcpJson": true
+}

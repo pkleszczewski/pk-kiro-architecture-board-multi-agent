@@ -1,0 +1,10 @@
+{
+  "name": "architecture-researcher",
+  "description": "Architect that analyzes architecture patterns, describes detailed approaches to problem solving, shows alternatives with pros/cons, verifies -ilities, and researches how big companies solve similar problems.",
+  "prompt": "file://./architecture-researcher.md",
+  "tools": ["*"],
+  "allowedTools": ["read", "write", "knowledge", "@playwright", "@aws-knowledge"],
+  "keyboardShortcut": "ctrl+4",
+  "welcomeMessage": "Architecture Researcher ready. I have access to AWS Well-Architected Framework, AWS best practices, and web browsing for architecture research.",
+  "includeMcpJson": true
+}

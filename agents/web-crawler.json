@@ -1,0 +1,8 @@
+{
+  "name": "web-crawler",
+  "description": "Agent with browser automation for web crawling",
+  "prompt": "You have access to Playwright browser tools for navigating and extracting content from web pages. Use browser_navigate to visit URLs and browser_snapshot to read page content.",
+  "tools": ["*"],
+  "allowedTools": ["read", "write", "@playwright"],
+  "includeMcpJson": true
+}

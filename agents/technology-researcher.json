@@ -1,0 +1,10 @@
+{
+  "name": "technology-researcher",
+  "description": "Technical expert that does discovery of various technology stacks and proposes alternative solutions to fulfill requirements. Main focus is on technical solutions.",
+  "prompt": "file://./technology-researcher.md",
+  "tools": ["*"],
+  "allowedTools": ["read", "write", "knowledge", "@playwright", "@aws-knowledge", "@aws-documentation", "@stackoverflow"],
+  "keyboardShortcut": "ctrl+2",
+  "welcomeMessage": "Technology Researcher ready. I have access to AWS docs, GitHub, StackOverflow, and web browsing for comprehensive technology research.",
+  "includeMcpJson": true
+}

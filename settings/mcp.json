@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "stackoverflow": {
+      "command": "uvx",
+      "args": ["stackoverflow-mcp"]
+    },
+    "drawio": {
+      "command": "npx",
+      "args": ["@drawio/mcp"]
+    }
+  }
+}
